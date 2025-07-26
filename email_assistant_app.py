@@ -125,7 +125,7 @@ def display_inbox():
         for email in st.session_state.emails:
             show_email_card(email)
     else:
-        st.info("No emails found. Try fetching or loading sample data.")
+        st.info("📭 No emails found. Try fetching or loading sample data.")
 
 def show_email_card(email):
     with st.expander(f"📧 {email['subject']}"):
@@ -137,7 +137,7 @@ def show_email_card(email):
 
         if st.button("✉️ Generate & Auto-Reply", key=f"reply_{email['id']}"):
             with st.spinner("Generating reply..."):
-                reply = reply_gen.generate_reply(email['body'])
+                reply = reply_gen.generate_reply(email['body'], email['classification'])
 
             st.text_area("Generated Reply", value=reply, height=150)
 
