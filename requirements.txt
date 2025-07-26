@@ -10,3 +10,5 @@ python-dotenv>=1.0.0
 email-validator>=2.0.0
 plotly>=5.15.0
 streamlit-option-menu>=0.3.6
+beautifulsoup4>=4.12.2      # for HTML-to-text cleanup (if needed)
+lxml>=4.9.3                  # parser used by bs4
