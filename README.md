@@ -1,15 +1,34 @@
 # 📧 AI Email Assistant
 
-This is a Streamlit-powered AI Email Assistant that:
-- Fetches emails from Gmail
-- Classifies emails (Work, Spam, Personal, etc.)
-- Prioritizes them using ML and rule-based logic
-- Generates reply suggestions using GPT (DistilGPT2)
+A smart email assistant that automatically classifies emails, prioritizes them, generates human-like replies, and lets users review and send them—all through an interactive Streamlit interface.
 
-## 🚀 How to Run Locally
+---
 
-```bash
-git clone https://github.com/your-username/email-ai-assistant.git
-cd email-ai-assistant
-pip install -r requirements.txt
-streamlit run app.py
+## 🚀 Features
+
+- 🔍 **Email Fetching** via IMAP (Gmail supported)
+- 🧠 **AI Classification** (Work, Personal, Spam)
+- ⚡ **Email Prioritization** (High, Medium, Low)
+- 🪄 **Context-Aware Reply Generation**
+- ✍️ **Manual Review Before Sending**
+- 📊 **Email Analytics & Visualization**
+- ✅ **Send Emails via SMTP**
+- 🌐 **Streamlit Web UI** (Fully interactive)
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer        | Tools Used                                  |
+|--------------|---------------------------------------------|
+| Interface    | `Streamlit`, `streamlit-option-menu`        |
+| NLP/ML       | `scikit-learn`, `nltk`, `transformers`, `torch` |
+| Email Client | `imaplib`, `smtplib`, `email`, `ssl`        |
+| Visualization| `pandas`, `plotly`                          |
+| Utils        | `joblib`, `dotenv`                          |
+
+---
+
+## 📂 Project Structure
+
+
