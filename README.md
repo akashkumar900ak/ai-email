@@ -27,8 +27,6 @@ A smart email assistant that automatically classifies emails, prioritizes them, 
 | Visualization| `pandas`, `plotly`                          |
 | Utils        | `joblib`, `dotenv`                          |
 
----
 
-## 📂 Project Structure
 
 
