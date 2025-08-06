@@ -27,6 +27,6 @@ A smart email assistant that automatically classifies emails, prioritizes them, 
 | Visualization| `pandas`, `plotly`                          |
 | Utils        | `joblib`, `dotenv`                          |
 
-
+try it : https://ai-email-quzwwpt8snpk4azn2pafqk.streamlit.app/
 
 
